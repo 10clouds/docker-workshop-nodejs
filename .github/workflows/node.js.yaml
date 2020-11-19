@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: gha-internal
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
